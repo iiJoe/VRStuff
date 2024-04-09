@@ -1,0 +1,196 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-65
+11-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:20-62
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:3-77
+12-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:20-74
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:3-69
+13-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:20-66
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:3-78
+14-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:20-75
+15
+16    <uses-feature android:glEsVersion="0x00030000" />
+16-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:3-52
+16-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:17-49
+17    <uses-feature
+17-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:3-91
+18        android:name="android.hardware.vulkan.version"
+18-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:17-63
+19        android:required="false" />
+19-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:64-88
+20    <uses-feature
+20-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:3-87
+21        android:name="android.hardware.microphone"
+21-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:17-59
+22        android:required="false" />
+22-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:60-84
+23    <uses-feature
+23-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:3-88
+24        android:name="android.hardware.touchscreen"
+24-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:17-60
+25        android:required="false" />
+25-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:61-85
+26    <uses-feature
+26-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:3-99
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:17-71
+28        android:required="false" />
+28-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:72-96
+29    <uses-feature
+29-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:3-108
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:17-80
+31        android:required="false" />
+31-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:81-105
+32    <uses-feature
+32-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:3-111
+33        android:name="android.hardware.vr.headtracking"
+33-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:17-64
+34        android:required="true"
+34-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:65-88
+35        android:version="1" />
+35-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:89-108
+36
+37    <application
+37-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:3-34:17
+38        android:allowBackup="false"
+38-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:114-141
+39        android:extractNativeLibs="true"
+39-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-48
+40        android:icon="@mipmap/app_icon"
+40-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:82-113
+41        android:label="@string/app_name"
+41-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:49-81
+42        android:networkSecurityConfig="@xml/network_sec_config" >
+42-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:142-197
+43        <meta-data
+43-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-69
+44            android:name="unity.splash-mode"
+44-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-48
+45            android:value="0" />
+45-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:49-66
+46        <meta-data
+46-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-74
+47            android:name="unity.splash-enable"
+47-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-50
+48            android:value="True" />
+48-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:51-71
+49        <meta-data
+49-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-78
+50            android:name="unity.launch-fullscreen"
+50-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-54
+51            android:value="True" />
+51-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:55-75
+52        <meta-data
+52-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-81
+53            android:name="notch.config"
+53-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-43
+54            android:value="portrait|landscape" />
+54-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:44-78
+55        <meta-data
+55-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-84
+56            android:name="unity.auto-report-fully-drawn"
+56-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-60
+57            android:value="true" />
+57-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:61-81
+58
+59        <activity
+59-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-28:16
+60            android:name="com.unity3d.player.UnityPlayerActivity"
+60-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:15-68
+61            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+61-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:204-313
+62            android:exported="true"
+62-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:385-408
+63            android:hardwareAccelerated="false"
+63-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:349-384
+64            android:launchMode="singleTask"
+64-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:172-203
+65            android:resizeableActivity="false"
+65-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:314-348
+66            android:screenOrientation="landscape"
+66-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:134-171
+67            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+67-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:69-133
+68            <intent-filter>
+68-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:7-24:23
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:9-69
+69-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:19-66
+70
+71                <action android:name="android.intent.action.MAIN" />
+71-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:9-61
+71-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:17-58
+72
+73                <category android:name="com.oculus.intent.category.VR" />
+73-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:9-66
+73-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:19-63
+74            </intent-filter>
+75
+76            <meta-data
+76-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:7-82
+77                android:name="unityplayer.UnityActivity"
+77-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:18-58
+78                android:value="true" />
+78-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:59-79
+79            <meta-data
+79-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:7-70
+80                android:name="notch_support"
+80-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:18-46
+81                android:value="true" />
+81-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:47-67
+82            <meta-data
+82-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:7-81
+83                android:name="com.oculus.vr.focusaware"
+83-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:18-57
+84                android:value="true" />
+84-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:58-78
+85        </activity>
+86
+87        <meta-data
+87-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:5-97
+88            android:name="com.samsung.android.vr.application.mode"
+88-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:16-70
+89            android:value="vr_only" />
+89-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:71-94
+90        <meta-data
+90-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:5-91
+91            android:name="com.unity.xr.oculus.LowOverheadMode"
+91-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:16-66
+92            android:value="false" />
+92-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:67-88
+93        <meta-data
+93-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:5-88
+94            android:name="com.unity.xr.oculus.LateLatching"
+94-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:16-63
+95            android:value="false" />
+95-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:64-85
+96        <meta-data
+96-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:5-93
+97            android:name="com.unity.xr.oculus.LateLatchingDebug"
+97-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:16-68
+98            android:value="false" />
+98-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:69-90
+99        <meta-data
+99-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:5-93
+100            android:name="com.oculus.supportedDevices"
+100-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:16-58
+101            android:value="quest2|questpro" />
+101-->/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:59-90
+102    </application>
+103
+104</manifest>

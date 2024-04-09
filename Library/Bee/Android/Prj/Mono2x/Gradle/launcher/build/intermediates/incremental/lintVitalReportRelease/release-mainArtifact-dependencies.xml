@@ -1,0 +1,33 @@
+<dependencies>
+  <compile
+      roots="/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release">
+    <dependency
+        name="/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release,__local_aars__:/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar,__local_aars__:/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/voicesdk_unity.jar:unspecified@jar,__local_aars__:/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/voicesdk_core.jar:unspecified@jar,__local_aars__:/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/voicesdk_platform_logger.jar:unspecified@jar,__local_aars__:/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/voicesdk_platform_dictation.jar:unspecified@jar,:OVRPlugin:@aar,:InteractionSdk:@aar,:SDKTelemetry:@aar,/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name="__local_aars__:/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/voicesdk_unity.jar:unspecified@jar"/>
+    <dependency
+        name="__local_aars__:/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/voicesdk_core.jar:unspecified@jar"/>
+    <dependency
+        name="__local_aars__:/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/voicesdk_platform_logger.jar:unspecified@jar"/>
+    <dependency
+        name="__local_aars__:/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/voicesdk_platform_dictation.jar:unspecified@jar"/>
+    <dependency
+        name=":OVRPlugin:@aar"/>
+    <dependency
+        name=":InteractionSdk:@aar"/>
+    <dependency
+        name=":SDKTelemetry:@aar"/>
+    <dependency
+        name="/home/joe/Development/unity/VArrrrrrr/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>
