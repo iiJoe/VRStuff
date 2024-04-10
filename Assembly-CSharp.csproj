@@ -84,6 +84,7 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandlerThumbstick.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerLaser.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs" />
+    <Compile Include="Assets/HandController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/MediaPlayerImage.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/SelectionCylinder.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainCrossingController.cs" />
@@ -182,10 +183,12 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/ButtonDownListener.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/RayTool.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
+    <Compile Include="Assets/ObjectAnchor.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/Utils/Pose.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/ObjectManipulator.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/MoviePlayerSample.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/PanelHMDFollower.cs" />
+    <Compile Include="Assets/MainPlayerController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Scripts/AnchorSpawner.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Scripts/SpatialAnchorSession.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerParabolic.cs" />
