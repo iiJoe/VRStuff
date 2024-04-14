@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class ObjectHover : MonoBehaviour
@@ -7,6 +8,7 @@ public class ObjectHover : MonoBehaviour
     public Material highlightMaterial; // Material for highlighting
     public LineRenderer lineRenderer;
     public float maxDistance = 10f; // Maximum distance for the raycast
+    public AudioSource audioSource;
     
     private Transform controllerTransform;
     private GameObject previousHitObject; // Previously highlighted object
@@ -15,6 +17,24 @@ public class ObjectHover : MonoBehaviour
     private GameObject grabbedObject;
     private Rigidbody grabbedRigidbody;
     private bool isRaycastHit = false;
+    private bool isObjectClose = false;
+
+    void StartVibration() {
+
+        float vibrationIntensity = 0.5f;
+        // Trigger vibration on highlight
+        OVRInput.SetControllerVibration(vibrationIntensity, vibrationIntensity, OVRInput.Controller.LTouch);
+        OVRInput.SetControllerVibration(vibrationIntensity, vibrationIntensity, OVRInput.Controller.RTouch);
+
+        // Stop the vibration after the specified duration
+        Invoke("StopVibration", 0.01f);
+    }
+
+    void StopVibration() {
+        // Stop haptic feedback on both controllers
+        OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.LTouch);
+        OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
+    }
 
     void HighlightObject(GameObject obj)
     {
@@ -23,6 +43,7 @@ public class ObjectHover : MonoBehaviour
 
         // Apply the highlight material to the object
         obj.GetComponent<Renderer>().material = highlightMaterial;
+        StartVibration();
     }
 
     void UnhighlightObject(GameObject obj)
@@ -49,11 +70,15 @@ public class ObjectHover : MonoBehaviour
 
     void UpdateGrabbedObject()
     {
-        // TODO figure out the pulling thing
-        // float distance = Vector3.Distance( controllerTransform.position, grabbedObject.transform.position );
+        Vector3 toBePosition = controllerTransform.position + controllerTransform.forward * 1.5f;
+        Vector3 moveDirection = (toBePosition - grabbedObject.transform.position).normalized;
+
+        float moveAmount = 5f * Time.deltaTime;
+        isObjectClose |= Vector3.Distance(toBePosition, grabbedObject.transform.position) <= 0.45f;
 
         // Update the position and rotation of the grabbed object to match the controller
-        grabbedObject.transform.position = controllerTransform.position + controllerTransform.forward * 1.5f;
+        if (isObjectClose) grabbedObject.transform.position = controllerTransform.position + controllerTransform.forward * 1.5f;
+        else grabbedObject.transform.position +=  moveDirection * moveAmount;
         grabbedObject.transform.rotation = controllerTransform.rotation;
     }
 
@@ -68,6 +93,12 @@ public class ObjectHover : MonoBehaviour
     {
         if (OVRInput.Get( OVRInput.Axis1D.SecondaryHandTrigger ) > 0.5 && OVRInput.Get( OVRInput.Axis1D.SecondaryIndexTrigger ) > 0.5)
         {
+            // Play the sound effect if it's not already playing
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
+         
             // If an object is grabbed, update its position and rotation
             if (grabbedObject != null)
             {
@@ -85,6 +116,12 @@ public class ObjectHover : MonoBehaviour
             lineRenderer.enabled = false;
         }
         else {
+            // Stop the sound effect if the button is released
+            if (audioSource.isPlaying)
+            {
+                audioSource.Stop();
+            }
+            isObjectClose = false;
             if (grabbedRigidbody != null) ReleaseObject();
         
             // Perform raycasting to detect objects the controller is hovering over
