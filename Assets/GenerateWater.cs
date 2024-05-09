@@ -13,18 +13,17 @@ public class GenerateWater : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // if (
+        //     OVRInput.Get( OVRInput.Button.Three )                           // Check that the A button is pressed
+        //     && OVRInput.Get( OVRInput.Button.Four )                         // Check that the B button is pressed
+        // ) {
+        StartCoroutine(GenerateObjectsCoroutine());
+        // }   
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (
-            OVRInput.Get( OVRInput.Button.Three )                           // Check that the A button is pressed
-            && OVRInput.Get( OVRInput.Button.Four )                         // Check that the B button is pressed
-        ) {
-            StartCoroutine(GenerateObjectsCoroutine());
-        }    
     }
 
     IEnumerator GenerateObjectsCoroutine()
