@@ -9,10 +9,6 @@ public class HandController : MonoBehaviour
     [Header( "Hand Properties" )]
     public HandType handType;
 
-	// Store the player controller to forward it to the object
-	[Header( "Player Controller" )]
-	public MainPlayerController playerController;
-
     // Store all gameobjects containing an Anchor
     // N.B. This list is static as it is the same list for all hands controller
     // thus there is no need to duplicate it for each instance
